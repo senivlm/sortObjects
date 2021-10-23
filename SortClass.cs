@@ -14,6 +14,8 @@ namespace SortObject
         {
             if (obj == null)
                 throw new ArgumentNullException("Object array cannot be null");
+            if (compare == null)
+                throw new ArgumentNullException("Please specify function");
 
             for (int i = 0; i < obj.Length; i++)
                 for (int j = 0; j < obj.Length - i - 1; j++)
