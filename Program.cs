@@ -5,6 +5,7 @@ namespace SortObject
 {
     class Program
     {
+        Посортувати просили список. Отже, після сортування масиву треба перетворити назад в список.
         static int CompareProductByName(object obj1, object obj2)
         {
             if (obj1 is Product product1 && obj2 is Product product2)
